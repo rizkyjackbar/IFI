@@ -1,0 +1,20 @@
+.footer-section {
+    background-color: #141516;
+    font-family: 'generalsans-medium', sans-serif;
+  }
+  
+  .footer-section h3,
+  .footer-section h5,
+  .footer-section h6 {
+    font-family: 'generalsans-semibold', sans-serif;
+  }
+  
+  .footer-section input.form-control {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .footer-section .bx {
+    font-size: 1.5rem;
+  }
+  

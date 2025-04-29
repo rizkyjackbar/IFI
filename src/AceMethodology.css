@@ -1,0 +1,46 @@
+.ace-card {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.ace-content {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.ace-content.show {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.arrow-icon {
+    transition: transform 0.3s ease-in-out;
+    transform: rotate(180deg);
+}
+
+.rotate-0 {
+    transform: rotate(0deg);
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+.bg-light-custom {
+    background-color: rgb(237 234 227 / 1);
+}
+
+.bg-dark-custom {
+    background-color: rgb(173 184 186 / 1);
+}
+
+.ace-section h1,
+.ace-section h4 {
+    font-family: 'Orbitron', sans-serif;
+}
